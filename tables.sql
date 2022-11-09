@@ -1,5 +1,5 @@
-DROP SCHEMA telecom_tp1 CASCADE;
-DROP DATABASE telecom_tp1;
+DROP SCHEMA IF EXISTS telecom_tp1 CASCADE;
+DROP DATABASE IF EXISTS telecom_tp1;
 CREATE DATABASE telecom_tp1;
 CREATE SCHEMA telecom_tp1;
 SET search_path ='telecom_tp1';
